@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <title>Sobre mim</title>
+</head>
+<body>
+    <header class="cabecalho"> 
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">home</a>
+            <a class="cabecalho__menu__link" href="abaut.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculo.html">Curriculo</a>
+        </nav>
+    </header>
+    <main class="apresentacao"> 
+        <section class="apresentacao__conteudo">
+            <h1 class="titulo">Sobre mim</h1>
+            <p class="apresentacao__conteudo__texto"> Utilizamos essas cores diversas vezes no nosso CSS. Vamos abrir o arquivo style.css por meio do VS Code. Pressionaremos "Ctrl + F" e pesquisaremos a cor terciária, digitando "22D4FD" no campo de pesquisa. Constataremos que essa cor foi utilizada quatro vezes ao longo do projeto. Pesquisaremos em seguida a cor do fundo, digitando "000000" no campo de pesquisa. Perceberemos que ela foi utilizada duas vezes.
+
+Ou seja, somando somente as duas cores, repetimos o nosso código seis vezes. Na prática, repetimos uma propriedade sensível oito vezes. Isso significa que, caso precisarmos alterar alguma das três cores principais do nosso projeto, teríamos que alterá-la em oito partes diferentes.
+
+Rafaella: Esse processo de mudança de cor é muito comum. Muitas empresas decidem alterar as suas identidades visuais em algum ponto de sua trajetória.</p>
+            <p class="apresentacao__conteudo__texto"> Guilherme: Como poderemos reutilizar um único código de cor em partes diferentes da nossa aplicação?
+
+Rafaella: Utilizaremos variáveis no CSS. Se você conhece alguma outra linguagem de programação, deve saber que elas são muito utilizadas. As variáveis são endereços na nossa memória reservados para armazenar um valor. Elas precisam ser nomeadas.
+
+É possível criar, por exemplo, uma variável chamada azul-claro e armazenar nela a nossa cor, informando o valor hexadecimal #22D4FD. Com isso, podemos utilizar somente a variável ao invés de declarar o valor da cor diretamente em todas as partes do código. Além disso, poderemos alterar este valor sempre que precisarmos.
+
+Guilherme: Com esse processo, podemos realizar alterações na cor do nosso projeto recorrendo a um único local, o qual enviará a alteração para todos os outros locais em que for inserido. Vamos entender as variáveis acessando a documentação.</p>
+        </section>
+        <img class="portifolio__imagem" src="./assets/foto.png" alt="foto de perfil de Everton F. Silva">
+    </main>
+    <footer class="rodape"> 
+        <p> Desenvolvido por Everton</p>
+    </footer>
+</body>
